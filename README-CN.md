@@ -58,7 +58,7 @@ optional arguments:
 ```
 
 ## 例子
-* 下载Tumblr [@liamtbyrne](http://liamtbyrne.tumblr.com)和[@lizclimo](http://lizclimo.tumblr.com/)上所有的图片和视频：
+* 下载Tumblr [@liamtbyrne](https://mycoldkitty.tumblr.com/)上所有的图片和视频：
 ```shell
 $ python tumblr-crawler.py liamtbyrne lizclimo
 ```
