@@ -26,6 +26,7 @@ optional arguments:
   --retries RETRIES     http request retries, default is 3
 
   $ python tumblr-crawler.py mycoldkitty https://mycoldkitty.tumblr.com/
+  $ python tumblr-crawler.py 
 
 
 
