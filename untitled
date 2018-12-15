@@ -24,7 +24,11 @@ optional arguments:
   --overwrite           overwrite file (if it exists)
   --interval INTERVAL   http request interval, default is 0.5 (seconds)
   --retries RETRIES     http request retries, default is 3
-  $ python tumblr-crawler.py mycoldkitty
+
+  $ python tumblr-crawler.py mycoldkitty https://mycoldkitty.tumblr.com/
+
+
+
   $ python tumblr-crawler.py -p liamtbyrne  # 只下载图片
 $ python tumblr-crawler.py --video liamtbyrne  # 只下载视频
 $ python tumblr-crawler.py -d /somedir/ liamtbyrne
