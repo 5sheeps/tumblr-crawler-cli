@@ -5,7 +5,7 @@ usage: tumblr-crawler.py [-h] [-p] [-v] [-d SAVE_DIR] [-f FN_FMT] [-x PROXY]
                          sites [sites ...]
 
 positional arguments:
-  sites                 tumblr sites
+https://mycoldkitty.tumblr.com/
 
 optional arguments:
   -h, --help            show this help message and exit
