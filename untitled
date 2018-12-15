@@ -1,4 +1,3 @@
-                         [--interval INTERVAL] [--retries RETRIES]
 下载Tumblr @liamtbyrne和@lizclimo上所有的图片和视频：
 $ python tumblr-crawler.py liamtbyrne lizclimo
 指定下载文件类型：
