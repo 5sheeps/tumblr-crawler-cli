@@ -1,0 +1,28 @@
+
+usage: tumblr-crawler.py [-h] [-p] [-v] [-d SAVE_DIR] [-f FN_FMT] [-x PROXY]
+                         [-n THREAD_NUM] [--min MIN_SIZE] [--overwrite]
+                         [--interval INTERVAL] [--retries RETRIES]
+                         sites [sites ...]
+
+positional arguments:
+  sites                 tumblr sites
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p, --photo           whether to download photo
+  -v, --video           whether to download video
+  -d SAVE_DIR, --dir SAVE_DIR
+                        download file save directory
+  -f FN_FMT, --format FN_FMT
+                        filename format
+  -x PROXY, --proxy PROXY
+                        http request agent, support http/socks
+  -n THREAD_NUM, --thread THREAD_NUM
+                        number of download threads, default is 5
+  --min MIN_SIZE        minimum size of downloaded files, default is 0k
+                        (unlimited)
+  --overwrite           overwrite file (if it exists)
+  --interval INTERVAL   http request interval, default is 0.5 (seconds)
+  --retries RETRIES     http request retries, default is 3
+  $ python tumblr-crawler.py 
+  
